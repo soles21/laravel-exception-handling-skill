@@ -309,6 +309,22 @@ Use Result when the "not found" or "failed" case is **expected business logic**.
 - Throwing `NotFoundException` for a search/filter that returns zero results — that is not an error.
 - Logging inside the service and also inside the handler — produces duplicate log entries.
 
+## Extended Reference
+
+For deeper guidance, read `AGENT.md` in this repo. Load the relevant section when the task requires it:
+
+| Need | AGENT.md Section |
+|---|---|
+| Full `bootstrap/app.php` block | § 1 — Full Bootstrap/App Registration |
+| All exception class boilerplate | § 2 — Exception Hierarchy Full Boilerplate |
+| Chaining Results / error codes | § 3 — Result Object Advanced Usage |
+| Wrapping HTTP clients / Stripe / etc. | § 4 — Handling Third-Party / I/O Boundaries |
+| Queue job failure handling | § 5 — Queue & Job Exception Handling |
+| Logging strategy across layers | § 6 — Logging Strategy |
+| API + web (Blade) in same app | § 7 — API vs Web Response Splitting |
+| Writing Pest/PHPUnit tests | § 8 — Testing Exception Behaviour |
+| Pre-PR self-review | § 9 — Common Mistakes Checklist |
+
 ## References
 
 - [Laravel Error Handling](https://laravel.com/docs/errors)

@@ -47,7 +47,7 @@ Register all exception-to-response mappings once in `bootstrap/app.php` via `wit
 ## Compatibility
 
 - PHP 8.3+
-- Laravel 11 / 12 / 13
+- Laravel 11 / 12
 - Compatible with Claude Code and Cursor
 
 ## License
